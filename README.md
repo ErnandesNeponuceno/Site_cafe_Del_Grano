@@ -20,7 +20,7 @@ Além de outros recursos.
 ## 💻 Preview:
 - Veja como ficou o projeto acessando: [o link do Github Pages]()
   
-![Imagem do Projeto]()
+![Imagem do Projeto](assets/img/Tela.png)
 
 ## 🤔 O que aprendi com esse projeto:
 - Utilização de Bootstrap.
