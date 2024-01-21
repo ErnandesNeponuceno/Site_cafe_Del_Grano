@@ -18,7 +18,7 @@ Além de outros recursos.
 </div>
 
 ## 💻 Preview:
-- Veja como ficou o projeto acessando: [o link do Github Pages](https://ernandesneponuceno.github.io/coffeeshop/)
+- Veja como ficou o projeto acessando: [o link do Github Pages](https://ernandesneponuceno.github.io/Site_cafe_Del_Grano/)
   
 ![Imagem do Projeto](assets/img/Telacoffe.png)
 
