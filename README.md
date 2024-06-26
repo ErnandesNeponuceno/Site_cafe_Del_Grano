@@ -1,3 +1,5 @@
+⚠️ MELHORIAS EM ANDAMENTO ⚠️
+
 ## 🏋️‍♂️ Desafio de Projeto HTML + CSS. Iniciando meu primeiro Framework: Bootstrap. 
 
 Desafio de projeto proposto para criação de uma página responsiva de uma cafeteria.  <br>
