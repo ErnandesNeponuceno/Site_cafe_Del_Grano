@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Del Grano Coffee</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -14,28 +17,17 @@
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="assets/img/logo.png" alt="Logo Café">
+        <img src="assets/img/delgrano.png" alt="Logo Café">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre Nós</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#menu">Cardápio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#local">Local</a>
-          </li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myNav">
+          <!-- Os itens de navs serão renderizados aqui -->
         </ul>
-        <form class="d-flex" role="search">
+        <form class="d-flex" role="search" >
           <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
           <button class="btn btn-primary" type="submit">Buscar</button>
         </form>
@@ -44,7 +36,6 @@
   </nav>
   <main>
     <!-- carousel -->
-
     <header id="carousel-coffe" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active" aria-current="true"
@@ -64,9 +55,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </header>
-
     <!-- Quote -->
-
     <figure class="text-center">
       <blockquote class="blockquote">
         <h3 class="fw-lighter fst-italic mt-5">"O amor é uma dose de café que se toma todos os dias."</h3>
@@ -75,37 +64,27 @@
         <cite title="Source Title">Ernandes Neponuceno</cite>
       </figcaption>
     </figure>
-
+    <section class="container mt-5">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <img src="assets/img/pao.png" class="img-fluid rounded-start" alt="Produtos de café">
+          </div>
+          <div class="col-md-6 qualidade_Produtos">
+              <h6 >COMPROMISSO COM A QUALIDADE</h6>
+              <h2 >Fabricação própria com reposição diária</h2>
+              <p >Nossos processos são otimizados para garantir que todos os produtos sejam entregues fresquinhos para você. Nossas bebidas são preparadas na hora! Nossos pães e doces são produzidos e repostos diariamente. Prezamos pela qualidade e excelência em cada detalhe.</p>
+          </div>
+      </div>
+  </section>
     <section id="about" class="container mt-5">
       <div class="row" id="about-container">
         <!-- Os cartões serão renderizados aqui -->
       </div>
     </section>
-
     <!-- menu -->
     <section id="menu" class="container mt-5 mb-5">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
-
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="espresso-tab" data-bs-toggle="tab" data-bs-target="#espresso-tab-pane"
-            type="button" role="tab" aria-controls="espresso-tab-pane" aria-selected="true">Expresso</button>
-        </li>
-
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="cappuccino-tab" data-bs-toggle="tab" data-bs-target="#cappuccino-tab-pane"
-            type="button" role="tab" aria-controls="cappuccino-tab-pane" aria-selected="false">Cappuccino</button>
-        </li>
-
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="iced-coffee-tab" data-bs-toggle="tab" data-bs-target="#iced-coffee-tab-pane"
-            type="button" role="tab" aria-controls="iced-coffee-tab-pane" aria-selected="false">Café Gelado
-          </button>
-        </li>
-
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="specials-tab" data-bs-toggle="tab" data-bs-target="#specials-tab-pane"
-            type="button" role="tab" aria-controls="specials-tab-pane" aria-selected="false">Especiais</button>
-        </li>
+        <!-- Aqui serão renderizado as tabs de cada produto -->
       </ul>
       <div class="tab-content" id="coffeesTabContent">
         <div class="tab-pane fade show active" id="espresso-tab-pane" role="tabpanel" aria-labelledby="espresso-tab"
@@ -117,7 +96,7 @@
         <div class="tab-pane fade" id="cappuccino-tab-pane" role="tabpanel" aria-labelledby="cappuccino-tab"
           tabindex="0">
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="cappuccino-container">
-          <!-- Aqui serão renderizado os cappuccinos -->
+            <!-- Aqui serão renderizado os cappuccinos -->
           </div>
         </div>
         <div class="tab-pane fade" id="iced-coffee-tab-pane" role="tabpanel" aria-labelledby="iced-coffee-tab"
@@ -128,17 +107,23 @@
         </div>
         <div class="tab-pane fade" id="specials-tab-pane" role="tabpanel" aria-labelledby="specials-tab" tabindex="0">
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="especial-container">
-           <!-- Aqui serão renderizado os especiais -->
+            <!-- Aqui serão renderizado os especiais -->
           </div>
         </div>
       </div>
     </section>
-
     <section id="local" class="container text-center mb-5">
       <!-- Button modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodal">
-        Quero conhecer o Del Grano Café
-      </button>
+      <section class="experience-section">
+        <div class="container_experience">
+            <h5>CADA DETALHE IMPORTA</h5>
+            <h2>Uma experiência única</h2>
+            <p>Somos referência de cafeteria inovadora e adoramos este título! Nossas unidades possuem um espaço com alto potencial de compartilhamento e a experiência presencial é incrível!</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodal">
+              Venha nos visitar
+            </button>
+        </div>
+    </section>
       <!-- Modal -->
       <div class="modal fade" id="localmodal" tabindex="-1" aria-labelledby="localmodalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -162,20 +147,45 @@
       </div>
     </section>
   </main>
-
   <!-- footer  -->
+  <footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-2 nav-list">
+                <img src="assets/img/delgrano.png">
+            </div>
+            <div class="col-12 col-md-8 nav-list">
+                <nav>
+                    <a href="#">HOME</a> |
+                    <a href="#">CONHEÇA</a> |
+                    <a href="#">QUALIDADE</a> |
+                    <a href="#">CONTATO</a> 
+                </nav>
+            </div>
+            <div class="col-12 col-md-2">
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-tiktok"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </div>
+                <button class="whatsapp-button">FALE PELO WHATS</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="mt-3 allDirects">© 2024 | Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
-  <footer class="text-center bg-dark p-4 mt-5 text-light">
-    <img width="120" src="assets/img/logo.png" alt="Logotipo del grano café">
-    <p class="mt-2">Del Grano Café - Tranformando sua experiência com café.</p>
-    <p>(61) 99571-3388</p>
-  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"></script>
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/about.js"></script>
   <script src="/assets/js/carousel.js"></script>
-
 </body>
+
 </html>

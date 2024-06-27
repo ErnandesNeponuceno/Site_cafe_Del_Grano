@@ -47,3 +47,4 @@ function renderProductCards(containerId, products) {
 }
 
 renderProductCards('about-container', productData);
+

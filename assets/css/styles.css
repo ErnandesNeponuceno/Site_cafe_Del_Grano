@@ -1,43 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --bs-link-color: #198754;
     --bs-link-hover-color: #105d39;
 }
-
 .btn{
-    --bs-btn-bg: #198754;
-    --bs-btn-border-color: #146c43;
-    --bs-btn-hover-bg: #146c43;
-    --bs-btn-hover-border-color: #146c43;
-    --bs-btn-active-bg: #105d39;
+    --bs-btn-bg: #CFA575;
+    --bs-btn-border-color: #CFA575;
+    --bs-btn-hover-bg: #90724f;
+    --bs-btn-hover-border-color: #90724f;
+    --bs-btn-active-bg: #bda488;
+    --bs-btn-active-border-color: #bda488;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
 main{
-    margin-top: 5rem;
+    margin-top: 5rem;  
 }
-
 section{
     scroll-margin-top: 6rem;
 }
-
-.navbar-brand img{
-    width: 100px;
+.navbar{
+    background-color: #FDF8E5;
 }
-
+.navbar-nav {
+    align-items: center;
+}
+.navbar-brand img, .footer img{
+    width: 80px;
+}
 .carousel-item{
-    height: 500px;
+    height: 31.25rem;
 }
-
 .carousel-item img{
     height: 100%;
     object-fit: cover;
     object-position:center
 }
-
+.qualidade_Produtos{
+    color: #a68a6a;
+   
+}
+.qualidadeProdutos h2{
+  font-weight: 600;
+}
+.card{
+    box-shadow: #00429339 0 1px 3px -1px, #0000002e 0 1px 2px -1px;
+    border-radius: 20px;
+}
 .card-menu img{
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
 }
-
 .carousel-item::before{
     content: "";
     width: 100%;
@@ -45,4 +62,95 @@ section{
     background: linear-gradient(transparent, rgb(31,31,31));
     position: absolute;
 }
+.img-fluid {
+    height: 100%;
+    object-fit: cover;
+}
+.row .g-0{
+    height: 100%;
+    min-height: 20rem;
+}
+/* ///////////////// */
+.custom-btn {
+    background-color: #CFA575;
+    border-color: #CFA575;
+    color: white;
+}
 
+.custom-btn:hover {
+    background-color: #8c7057;
+    border-color: #8c7057;
+}
+
+.experience-section {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.container_experience{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+.experience-section h5 {
+    color: #a68a6a;
+    font-weight: 400;
+    font-size: .825rem;
+}
+.experience-section h2 {
+    color: #a68a6a;
+    margin: 1rem 0;
+}
+.experience-section p {
+    color: #a68a6a;
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+}
+.experience-section .btn-primary {
+    background-color: #a68a6a;
+    border-color: #a68a6a;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+.experience-section .btn-primary:hover {
+    background-color: #d4b195;
+    border-color: #d4b195;
+}
+
+.footer {
+    background-color: #a68a6a;
+    color: white;
+    padding: 1.5rem 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.footer .whatsapp-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+}
+.footer .whatsapp-button:hover {
+    background-color: white;
+    color: #a68a6a;
+}
+.nav-list{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.allDirects{
+    font-weight: 100;
+    font-size: .825rem;
+}

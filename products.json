@@ -1,29 +1,29 @@
 {
     "espresso": [
-      { "id": 1, "title": "Café Expresso 01", "price": "R$ 7,50", "imageUrl": "http://source.unsplash.com/random/?coffee&1/" },
-      { "id": 2, "title": "Café Expresso 02", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&2/" },
-      { "id": 3, "title": "Café Expresso 03", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&3/" },
-      { "id": 4, "title": "Café Expresso 04", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&4/" },
-      { "id": 5, "title": "Café Expresso 05", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&5/" },
-      { "id": 6, "title": "Café Expresso 06", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&6/" }
+      { "id": 1, "title": "ESPRESSO", "price": "R$ 7,50", "imageUrl": "assets/img/quentes-1.png" },
+      { "id": 2, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-2.png" },
+      { "id": 3, "title": "CARAMELO MACCHIATO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-3.png" },
+      { "id": 4, "title": "FLAT WHITE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-4.png" },
+      { "id": 5, "title": "LATTE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-5.png" },
+      { "id": 6, "title": "MOCHA", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-2.png" }
     ],
     "cappuccino": [
-      { "id": 7, "title": "Cappuccino 01", "price": "R$ 7,50", "imageUrl": "http://source.unsplash.com/random/?coffee&7/" },
-      { "id": 8, "title": "Cappuccino 02", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&8/" },
-      { "id": 9, "title": "Cappuccino 03", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&9/" },
-      { "id": 10, "title": "Cappuccino 04", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&10/" },
-      { "id": 11, "title": "Cappuccino 05", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&11/" },
-      { "id": 12, "title": "Cappuccino 06", "price": "R$ 10,50", "imageUrl": "http://source.unsplash.com/random/?coffee&12/" }
+      { "id": 7, "title": "COPACABANA", "price": "R$ 7,50", "imageUrl": "assets/img/shake-5.png" },
+      { "id": 8, "title": "LOTUS", "price": "R$ 9,50", "imageUrl": "assets/img/shake-6.png" },
+      { "id": 9, "title": "CHOCO BOOM", "price": "R$ 9,50", "imageUrl": "assets/img/shake-3.png" },
+      { "id": 10, "title": "MORANGO SHAKE", "price": "R$ 10,50", "imageUrl": "assets/img/shake-1.png" },
+      { "id": 11, "title": "BLUEBERRY", "price": "R$ 10,50", "imageUrl": "assets/img/shake-4.png" },
+      { "id": 12, "title": "OREO", "price": "R$ 10,50", "imageUrl": "assets/img/shake-2.png" }
     ],
     "icedCoffee": [
-      { "id": 13, "title": "Café Gelado 01", "price": "R$ 7,50", "imageUrl": "http://source.unsplash.com/random/?coffee&13/" },
-      { "id": 14, "title": "Café Gelado 02", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&14/" },
-      { "id": 15, "title": "Café Gelado 03", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&15/" }
+      { "id": 13, "title": "LATTE TIRAMISÙ", "price": "R$ 7,50", "imageUrl": "assets/img/gelado-1.jpg" },
+      { "id": 14, "title": "DULCE DI LATTE", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-2.png" },
+      { "id": 15, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-3.jpg" }
     ],
     "specials": [
-      { "id": 16, "title": "Especial 01", "price": "R$ 7,50", "imageUrl": "http://source.unsplash.com/random/?coffee&16/" },
-      { "id": 17, "title": "Especial 02", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&17/" },
-      { "id": 18, "title": "Especial 03", "price": "R$ 9,50", "imageUrl": "http://source.unsplash.com/random/?coffee&18/" }
+      { "id": 16, "title": "AL GREEN", "price": "R$ 7,50", "imageUrl": "assets/img/especiais-1.jpg" },
+      { "id": 17, "title": "ICED LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-2.png" },
+      { "id": 18, "title": "LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-3.png" }
     ]
   }
   

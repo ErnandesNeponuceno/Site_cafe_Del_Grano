@@ -55,5 +55,46 @@ function loadProductData() {
         .catch(error => console.error('Erro ao carregar os dados dos produtos:', error));
 }
 
-// Carregar os dados dos produtos quando a página for carregada
 document.addEventListener('DOMContentLoaded', loadProductData);
+
+// criação das tabs
+const tabs = [
+    { id: 'espresso', label: 'Expresso', active: true },
+    { id: 'cappuccino', label: 'Shakes', active: false },
+    { id: 'iced-coffee', label: 'Café Gelado', active: false },
+    { id: 'specials', label: 'Especiais', active: false }
+  ];
+  
+  function createTab(tab) {
+    return `
+      <li class="nav-item" role="presentation">
+        <button class="nav-link ${tab.active ? 'active' : ''}" id="${tab.id}-tab" data-bs-toggle="tab" data-bs-target="#${tab.id}-tab-pane"
+          type="button" role="tab" aria-controls="${tab.id}-tab-pane" aria-selected="${tab.active}">${tab.label}</button>
+      </li>
+    `;
+  }
+  
+  const tabList = document.getElementById('myTab');
+  tabList.innerHTML = tabs.map(createTab).join('');
+  
+
+// criação das navs 
+const navs = [
+    {href: '#', label: 'Início', active: true},
+    {href: '#about', label: 'Sobre Nós', active: false},
+    {href: '#menu', label: 'Cardápio', active: false},
+    {href: '#local', label: 'Local', active: false}
+];
+
+function createNav(nav) {
+    return `
+    <li class="nav-item">
+        <a class="nav-link ${nav.active ? 'active' : ''}" href="${nav.href}" ${nav.active ? 'aria-current="page"' : ''}>
+            ${nav.label}
+        </a>
+    </li>
+    `;
+}
+
+const navList = document.getElementById('myNav');
+navList.innerHTML = navs.map(createNav).join('');
