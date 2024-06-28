@@ -5,6 +5,10 @@ function createCoffeeCard(product) {
 
     const card = document.createElement('div');
     card.className = 'card card-menu';
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => {
+        openProductModal(product);
+    });
 
     const img = document.createElement('img');
     img.src = product.imageUrl;
@@ -29,6 +33,22 @@ function createCoffeeCard(product) {
     col.appendChild(card);
 
     return col;
+}
+
+// Função para abrir o modal com os detalhes do produto
+function openProductModal(product) {
+    const modalTitle = document.getElementById('productModalLabel');
+    const modalImage = document.getElementById('productModalImage');
+    const modalDescription = document.getElementById('productModalDescription');
+    const modalPrice = document.getElementById('productModalPrice');
+
+    modalTitle.textContent = product.title;
+    modalImage.src = product.imageUrl;
+    modalDescription.textContent = product.description;
+    modalPrice.textContent = product.price;
+
+    const productModal = new bootstrap.Modal(document.getElementById('productModal'));
+    productModal.show();
 }
 
 // Função para renderizar os cards de produtos de café

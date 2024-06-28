@@ -1,29 +1,29 @@
 {
     "espresso": [
-      { "id": 1, "title": "ESPRESSO", "price": "R$ 7,50", "imageUrl": "assets/img/quentes-1.png" },
-      { "id": 2, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-2.png" },
-      { "id": 3, "title": "CARAMELO MACCHIATO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-3.png" },
-      { "id": 4, "title": "FLAT WHITE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-4.png" },
-      { "id": 5, "title": "LATTE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-5.png" },
-      { "id": 6, "title": "MOCHA", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-2.png" }
+      { "id": 1, "title": "ESPRESSO", "price": "R$ 7,50", "imageUrl": "assets/img/quentes-1.png", "description": "Potente e encorpado. 60ml" },
+      { "id": 2, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-2.png", "description": "Espresso duplo suavizado com água. 380ml" },
+      { "id": 3, "title": "CARAMELO MACCHIATO", "price": "R$ 9,50", "imageUrl": "assets/img/quentes-3.png", "description": "Estilo Italiano. Espresso e leite vaporizado. Bem Cremoso. Sabor do café mais presente. 380ml" },
+      { "id": 4, "title": "FLAT WHITE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-4.png", "description": "Espresso, leite vaporizado e calda de caramelo. 380ml" },
+      { "id": 5, "title": "LATTE", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-5.png", "description": "Espresso e leite vaporizado. Sabor do café mais delicado. 380ml" },
+      { "id": 6, "title": "MOCHA", "price": "R$ 10,50", "imageUrl": "assets/img/quentes-2.png", "description": "Espresso e leite vaporizado. Sabor do café mais suave. 380ml" }
     ],
     "cappuccino": [
-      { "id": 7, "title": "COPACABANA", "price": "R$ 7,50", "imageUrl": "assets/img/shake-5.png" },
-      { "id": 8, "title": "LOTUS", "price": "R$ 9,50", "imageUrl": "assets/img/shake-6.png" },
-      { "id": 9, "title": "CHOCO BOOM", "price": "R$ 9,50", "imageUrl": "assets/img/shake-3.png" },
-      { "id": 10, "title": "MORANGO SHAKE", "price": "R$ 10,50", "imageUrl": "assets/img/shake-1.png" },
-      { "id": 11, "title": "BLUEBERRY", "price": "R$ 10,50", "imageUrl": "assets/img/shake-4.png" },
-      { "id": 12, "title": "OREO", "price": "R$ 10,50", "imageUrl": "assets/img/shake-2.png" }
+      { "id": 7, "title": "COPACABANA", "price": "R$ 7,50", "imageUrl": "assets/img/shake-5.png", "description": "Shake de sorvete com creme de pistache, finalizado com chantilly, calda de caramelo e pistaches. 500ml" },
+      { "id": 8, "title": "LOTUS", "price": "R$ 9,50", "imageUrl": "assets/img/shake-6.png", "description": "Shake de biscoito Lótus com sorvete, finalizado com chantilly e calda de caramelo. 500ml" },
+      { "id": 9, "title": "CHOCO BOOM", "price": "R$ 9,50", "imageUrl": "assets/img/shake-3.png", "description": "Shake de Ovomaltine, finalizado com chantilly, biscoito Oreo, Pocky e picolé de baunilha. 460ml" },
+      { "id": 10, "title": "MORANGO SHAKE", "price": "R$ 10,50", "imageUrl": "assets/img/shake-1.png", "description": "Shake de morango com sorvete, finalizado com chantilly, fatias de morango e cranberry em pó. 460ml" },
+      { "id": 11, "title": "BLUEBERRY", "price": "R$ 10,50", "imageUrl": "assets/img/shake-4.png", "description": "Shake de blueberry com sorvete, finalizado com chantilly, blueberry e pó de blueberry. 460ml" },
+      { "id": 12, "title": "OREO", "price": "R$ 10,50", "imageUrl": "assets/img/shake-2.png", "description": "Shake de biscoito Oreo com sorvete, finalizado com Oreo, chantilly e Salty Cream. 460ml" }
     ],
     "icedCoffee": [
-      { "id": 13, "title": "LATTE TIRAMISÙ", "price": "R$ 7,50", "imageUrl": "assets/img/gelado-1.jpg" },
-      { "id": 14, "title": "DULCE DI LATTE", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-2.png" },
-      { "id": 15, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-3.jpg" }
+      { "id": 13, "title": "LATTE TIRAMISÙ", "price": "R$ 7,50", "imageUrl": "assets/img/gelado-1.jpg", "description": "Bebida gelada à base de espresso, leite, creme e biscoito." },
+      { "id": 14, "title": "DULCE DI LATTE", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-2.png", "description": "Bebida gelada à base de café, leite integral e doce de leite argentino. 380ml" },
+      { "id": 15, "title": "AMERICANO", "price": "R$ 9,50", "imageUrl": "assets/img/gelado-3.jpg", "description": "Espresso duplo suavizado com água. 380ml" }
     ],
     "specials": [
-      { "id": 16, "title": "AL GREEN", "price": "R$ 7,50", "imageUrl": "assets/img/especiais-1.jpg" },
-      { "id": 17, "title": "ICED LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-2.png" },
-      { "id": 18, "title": "LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-3.png" }
+      { "id": 16, "title": "AL GREEN", "price": "R$ 7,50", "imageUrl": "assets/img/especiais-1.jpg", "description": "Bebida quente à base de espresso e leite de aveia vaporizado. 380ml" },
+      { "id": 17, "title": "ICED LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-2.png", "description": "Bebida gelada à base de espresso e leite de aveia. 380ml" },
+      { "id": 18, "title": "LATTE AVEIA", "price": "R$ 9,50", "imageUrl": "assets/img/especiais-3.png", "description": "Bebida gelada à base de espresso, leite de aveia, pistache e creme vegetal. 380ml" }
     ]
   }
   
