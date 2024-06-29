@@ -1,12 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-:root{
+:root {
     --bs-link-color: #872f19;
     --bs-link-hover-color: #7a220c;
 }
-.btn{
+
+.btn {
     --bs-btn-bg: #CFA575;
     --bs-btn-border-color: #CFA575;
     --bs-btn-hover-bg: #90724f;
@@ -15,83 +15,114 @@
     --bs-btn-active-border-color: #bda488;
 }
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
     background-color: #F9F9F9;
 }
-main{
-    margin-top: 5rem;  
+
+main {
+    margin-top: 5rem;
 }
-section{
+
+section {
     scroll-margin-top: 6rem;
 }
-.navbar{
+.d-none{
+    display: flex;
+}
+
+.navbar {
     background-color: #893E39;
 }
+
 .navbar-nav {
     align-items: center;
 }
-.navbar-brand img, .footer img{
+
+.navbar-brand img, .footer img {
     width: 80px;
 }
-.navbar-brand{
-    margin: 0 1.5rem 0 1.5rem;
+
+.navbar-brand {
+    margin: 0 1.5rem;
 }
+
 .navbar-toggler {
     border: none;
 }
-.carousel-item{
+
+.nav-tabs .nav-link.active {
+    background-color: #eee9;
+}
+
+.form-control {
+    border: none;
+}
+
+.carousel-item {
     height: 31.25rem;
 }
-.carousel-item img{
+
+.carousel-item img {
     height: 100%;
     object-fit: cover;
-    object-position:center
+    object-position: center;
 }
-.carousel-item::before{
+
+.carousel-item::before {
     content: "";
     width: 100%;
     height: 100%;
     background: linear-gradient(transparent, rgba(31, 31, 31, 0.767));
     position: absolute;
 }
-.qualidade_Produtos{
+
+.qualidade_Produtos {
     color: #a68a6a;
 }
 
-.text_cite{
+.text_cite {
     padding: 5rem 0;
     background-image: url(/assets/img/beans4.jpg);
     background-color: #602b05;
-    color: #f1aa04; 
-  
+    color: #f1aa04;
 }
-.text_cite h3{
+
+.text_cite h3 {
     font-weight: 700;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-size: 2.5rem;
-
 }
 
-
-.qualidadeProdutos h2{
-  font-weight: 600;
+.blockquote-footer {
+    color: #e6e6e6;
 }
-.card-menu{
+
+.qualidadeProdutos h2 {
+    font-weight: 600;
+}
+
+.card-menu {
     box-shadow: #00429339 0 1px 4px -1px, #0000002e 0 1px 3px -1px;
     border-radius: 20px;
 }
-.card-menu img{
+
+.card-menu img {
     height: 18.75rem;
     object-fit: contain;
-    
 }
-.about{
+
+.card-title {
+    color: #a68a6a;
+}
+
+.about {
     border: none;
     background: transparent;
 }
-.about-text h5{
+
+.about-text h5 {
     font-weight: 900;
     font-size: 1.5rem;
 }
@@ -100,11 +131,12 @@ section{
     height: 100%;
     object-fit: cover;
 }
-.row .g-0{
+
+.row .g-0 {
     height: 100%;
     min-height: 20rem;
 }
-/* ///////////////// */
+
 .custom-btn {
     background-color: #CFA575;
     border-color: #CFA575;
@@ -121,30 +153,35 @@ section{
     padding: 3rem 0;
 }
 
-.container_experience{
+.container_experience {
     max-width: 50rem;
     margin: 0 auto;
 }
+
 .experience-section h5 {
     color: #a68a6a;
     font-weight: 400;
     font-size: .825rem;
 }
+
 .experience-section h2 {
     color: #a68a6a;
     margin: 1rem 0;
     font-weight: 600;
 }
+
 .experience-section p {
     color: #a68a6a;
     margin: 1rem 0 2rem;
 }
+
 .experience-section .btn-primary {
     background-color: #a68a6a;
     border-color: #a68a6a;
     border-radius: 25px;
     padding: 0.5rem 2rem;
 }
+
 .experience-section .btn-primary:hover {
     background-color: #d4b195;
     border-color: #d4b195;
@@ -155,18 +192,26 @@ section{
     color: white;
     padding: 1.5rem 0;
 }
+
 .footer a {
     color: white;
     text-decoration: none;
     margin: 0 1rem;
 }
+
 .footer a:hover {
     font-weight: bold;
 }
+
 .footer .social-icons a {
     font-size: 1.5rem;
     margin: 0 0.5rem;
 }
+
+.social-icons {
+    margin-bottom: 1rem;
+}
+
 .footer .whatsapp-button {
     background-color: transparent;
     border: 1px solid white;
@@ -174,27 +219,29 @@ section{
     padding: 0.5rem 1rem;
     border-radius: 25px;
 }
+
 .footer .whatsapp-button:hover {
     background-color: white;
     color: #a68a6a;
 }
-.nav-list{
+
+.nav-list {
     justify-content: center;
     display: flex;
     align-items: center;
     font-weight: 300;
+    margin: 1rem 0;
 }
-.allDirects{
+
+.allDirects {
     font-weight: 100;
     font-size: .825rem;
 }
 
-
-/* Modal*/
-
-.modal-header{
+.modal-header {
     border-bottom: none;
 }
+
 .modal-dialog-centered {
     display: flex;
     align-items: center;
@@ -205,9 +252,9 @@ section{
 .modal-content {
     position: relative;
     width: 100%;
-    max-width: 37.5rem; 
-    border-radius: 20px ; 
-    box-sizing: border-box; 
+    max-width: 37.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .modal-body img {
@@ -216,40 +263,13 @@ section{
     object-fit: contain;
 }
 
-
 .modal-body {
     text-align: center;
 }
-/* /////////////////////////////// */
-.text-section {
-    text-align: left;
-}
-
-.text-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #A52A2A; /* Adjust the color as needed */
-}
-
-.text-section p {
-    font-size: 1rem;
-    color: #333; /* Adjust the color as needed */
-}
-
-@media (max-width: 768px) {
-    .text-section h2 {
-        font-size: 1.5rem;
-    }
-
-    .text-section p {
-        font-size: 0.9rem;
-    }
-}
-
-
 
 @media (max-width: 600px) {
     .navbar-brand img, .footer img {
         width: 50px;
     }
+
 }

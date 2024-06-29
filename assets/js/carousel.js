@@ -28,7 +28,7 @@ const carouselData = [
   
     carouselItem.innerHTML = `
       <img src="${item.src}" class="d-block w-100" alt="${item.alt}">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5>${item.title}</h5>
         <p>${item.description}</p>
       </div>
