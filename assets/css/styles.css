@@ -7,10 +7,10 @@
 }
 
 .btn {
-    --bs-btn-bg: #CFA575;
-    --bs-btn-border-color: #CFA575;
-    --bs-btn-hover-bg: #90724f;
-    --bs-btn-hover-border-color: #90724f;
+    --bs-btn-bg: #bda488;
+    --bs-btn-border-color: #bda488;
+    --bs-btn-hover-bg: #A6705D;
+    --bs-btn-hover-border-color: #A6705D;
     --bs-btn-active-bg: #bda488;
     --bs-btn-active-border-color: #bda488;
 }
@@ -29,10 +29,6 @@ section {
 }
 .d-none{
     display: flex;
-}
-
-.navbar {
-    background-color: #893E39;
 }
 
 .navbar-nav {
@@ -81,6 +77,10 @@ section {
     color: #a68a6a;
 }
 
+.qualidade_Produtos > h2 {
+    font-weight: 600;
+}
+
 .text_cite {
     padding: 5rem 0;
     background-image: url(/assets/img/beans4.jpg);
@@ -97,24 +97,6 @@ section {
 
 .blockquote-footer {
     color: #e6e6e6;
-}
-
-.qualidadeProdutos h2 {
-    font-weight: 600;
-}
-
-.card-menu {
-    box-shadow: #00429339 0 1px 4px -1px, #0000002e 0 1px 3px -1px;
-    border-radius: 20px;
-}
-
-.card-menu img {
-    height: 18.75rem;
-    object-fit: contain;
-}
-
-.card-title {
-    color: #a68a6a;
 }
 
 .about {
@@ -137,15 +119,47 @@ section {
     min-height: 20rem;
 }
 
-.custom-btn {
-    background-color: #CFA575;
-    border-color: #CFA575;
-    color: white;
+.card-menu {
+    box-shadow: #00429339 0 1px 4px -1px, #0000002e 0 1px 3px -1px;
+    border-radius: 20px;
 }
 
-.custom-btn:hover {
-    background-color: #8c7057;
-    border-color: #8c7057;
+.card-menu img {
+    height: 18.75rem;
+    object-fit: contain;
+}
+
+.card-title, .modal-title{
+    color: #a68a6a;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 37.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.modal-body img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+.modal-body {
+    text-align: center;
 }
 
 .experience-section {
@@ -176,15 +190,15 @@ section {
 }
 
 .experience-section .btn-primary {
-    background-color: #a68a6a;
-    border-color: #a68a6a;
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-bg);
     border-radius: 25px;
     padding: 0.5rem 2rem;
 }
 
 .experience-section .btn-primary:hover {
-    background-color: #d4b195;
-    border-color: #d4b195;
+    background-color: var( --bs-btn-hover-bg);
+    border-color: var( --bs-btn-hover-bg);
 }
 
 .footer {
@@ -193,13 +207,13 @@ section {
     padding: 1.5rem 0;
 }
 
-.footer a {
+.footer .list-footer a, .social-icons a {
     color: white;
     text-decoration: none;
     margin: 0 1rem;
 }
 
-.footer a:hover {
+.footer .list-footer a:hover {
     font-weight: bold;
 }
 
@@ -218,6 +232,7 @@ section {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
+    font-size: 12px;
 }
 
 .footer .whatsapp-button:hover {
@@ -226,9 +241,9 @@ section {
 }
 
 .nav-list {
-    justify-content: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 300;
     margin: 1rem 0;
 }
@@ -236,35 +251,6 @@ section {
 .allDirects {
     font-weight: 100;
     font-size: .825rem;
-}
-
-.modal-header {
-    border-bottom: none;
-}
-
-.modal-dialog-centered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.modal-content {
-    position: relative;
-    width: 100%;
-    max-width: 37.5rem;
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-
-.modal-body img {
-    max-width: 70%;
-    max-height: 70%;
-    object-fit: contain;
-}
-
-.modal-body {
-    text-align: center;
 }
 
 @media (max-width: 600px) {

@@ -37,11 +37,10 @@ const carouselData = [
     return carouselItem;
   }
   
-  // Função para renderizar os itens do carrossel
   function renderCarouselItems(containerId, items) {
     const container = document.getElementById(containerId);
-    container.innerHTML = ''; // Limpa o container
-  
+    container.innerHTML = ''; 
+
     items.forEach((item, index) => {
       const carouselItem = createCarouselItem(item, index === 0);
       container.appendChild(carouselItem);

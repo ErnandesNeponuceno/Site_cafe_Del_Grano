@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', loadProductData);
 
 // criação das tabs
 const tabs = [
-    { id: 'espresso', label: 'Expresso', active: true },
+    { id: 'espresso', label: 'Espressos', active: true },
     { id: 'cappuccino', label: 'Shakes', active: false },
-    { id: 'iced-coffee', label: 'Café Gelado', active: false },
+    { id: 'iced-coffee', label: 'Cafés Gelados', active: false },
     { id: 'specials', label: 'Especiais', active: false }
   ];
   
@@ -102,7 +102,7 @@ const tabs = [
 const navs = [
     {href: '#', label: 'Início', active: true},
     {href: '#about', label: 'Sobre Nós', active: false},
-    {href: '#menu', label: 'Cardápio', active: false},
+    {href: '#menu', label: 'Menu', active: false},
     {href: '#local', label: 'Local', active: false}
 ];
 
