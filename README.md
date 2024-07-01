@@ -36,7 +36,7 @@ Os temas abordados são:<br>
 </div>
 
 ## 💻 Preview:
-- Veja como ficou o projeto acessando: [Link](https://ernandesneponuceno.github.io/Site_cafe_Del_Grano/)
+- Veja como ficou o projeto acessando: [Link](https://javascript-bootstrap-css-cafeteria.vercel.app/)
   
 ![Imagem do Projeto](assets/img/Telacoffe.png)
 
