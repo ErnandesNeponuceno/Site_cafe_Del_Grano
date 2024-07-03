@@ -18,13 +18,16 @@ Os temas abordados são:<br>
 - Carregamento dinâmico dos dados dos produtos a partir de um arquivo JSON.
 
 ## Estrutura do Projeto:
-- index.html: Arquivo HTML principal.
-- assets/css/styles.css: Arquivo CSS para estilização.
-- assets/js/main.js: Arquivo JavaScript contendo as funcionalidades descritas acima.
-- assets/js/about.js: Arquivo responsável pela rederização dos cards about.
-- assets/js/carousel.js: Arquivo responsável pela renderização do carousel.
-- products.json: Arquivo JSON com os dados dos produtos.
 
+- **index.html:** Arquivo HTML principal.
+- **assets/**
+  - **css/**
+    - **styles.css:** Arquivo CSS para estilização.
+  - **js/**
+    - **main.js:** Arquivo JavaScript contendo as funcionalidades descritas acima.
+    - **about.js:** Arquivo responsável pela renderização dos cards about.
+    - **carousel.js:** Arquivo responsável pela renderização do carousel.
+- **products.json:** Arquivo JSON com os dados dos produtos.
 
 ## 💻 Tecnologias utilizadas nesse projeto:
 
